@@ -1,0 +1,74 @@
+body , html, #mainDiv {
+    height: 100%;
+}
+header, footer {
+    background-color: #1d1d1d;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+body {
+    font-family: Helvetica;
+    color: #ffd439;
+    background-color: #1d1d1d;
+}
+header > h1 {
+    font-family: Helvetica;
+    font-size: 29px;
+    color: #ffd439;
+    margin: 0 0 0 10px;
+}
+#conteudo {
+    /* height: 100%; */
+    max-width: 300px;
+    min-width: 100px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+#conteudo > img {
+    width: 100px;
+    height: 100px;
+}
+#conteudo > div {
+    background-color: #363636;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#conteudo > div > div {
+    margin:30px 0px 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#conteudo a {
+    color: #ffd439;
+    font-size: 10px;
+}
+#conteudo > div > button {
+    color: #1d1d1d;
+    background-color: #ffd439;
+    padding: 15px;
+    width: 180px;
+    margin: 20px auto 5px auto;
+    border-radius: 10px;
+}
+#conteudo img {
+    margin: 10px auto;
+}
+#conteudo > span {
+    text-align: center;
+}
+#conteudo a {
+    font-size: 14px;
+    margin: 5px;
+}
+#conteudo input {
+    width: 200px;
+    margin: 10px;
+}

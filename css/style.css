@@ -1,0 +1,120 @@
+body , html, #mainDiv {
+    height: 100%;
+}
+header, footer {
+    background-color: #1d1d1d;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+body {
+    font-family: Helvetica;
+}
+header > h1 {
+    font-family: Helvetica;
+    font-size: 29px;
+    color: #ffd439;
+    margin: 0 0 0 10px;
+}
+header > div {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 0;
+    flex-direction: row-reverse;
+}
+header img {
+    margin: 0 5px 0 0;
+}
+header > div > div {
+    display: flex;
+    flex-direction: column;
+}
+header a {
+    color: #ffd439;
+    margin: 5px
+}
+#mainDiv, footer,body {
+    background-color: #1d1d1d;
+    color: #ffd439;
+}
+#mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    height: auto
+}
+#mainDiv > div:first-child {
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 30px 30px 20px 30px;
+    text-align: center;
+}
+#mainDiv > div:first-child {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+#mainDiv > div:first-child > span {
+    clear: both;
+}
+#troca > div {
+    display: flex; 
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#troca img {
+    margin: 10px 0;
+}
+#troca > div > div {
+    width: 180px;
+    text-align: center;
+}
+#troca h1 {
+    font-size: 30px;
+}
+#troca > span {
+    text-align: left;
+    font-size: 10px;
+}
+#tutorial {
+    padding: 60px 20px 40px 20px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 60px 30px 40px 30px;
+    text-align: center;
+}
+#tutorial h2{
+    font-size: 30px;
+}
+#tutorial > div {
+    text-align: left;
+    margin: 10px
+}
+#tutorial a {
+    font-size: 35px;
+    color: #ffd439;
+}
+footer {
+    border-top: 3px solid black;
+    border-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    padding: 0 10px 0 0;
+    /* align-items: right; */
+    /* text-align: right; */
+}
